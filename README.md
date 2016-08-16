@@ -34,3 +34,7 @@ type name with space is not supported, such as 'long long int'
 storage specifiers are not supported
 
 const, volatile and other qualifiers are not supported
+
+function parameters are not supposed to have name, e.g. void func(int p1, int p2) is not supported, use void func(int, int) instead
+
+multi-line declaraion is not supported, write declaraion in one line
